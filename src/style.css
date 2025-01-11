@@ -1,0 +1,13 @@
+/* Réinitialisation des styles par défaut */
+* {
+  box-sizing: border-box;
+}
+
+/* Styles globaux pour le body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+}
