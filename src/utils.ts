@@ -3,8 +3,8 @@
  *
  * @param {number} index        - Index de l'élément
  * @param {number} total        - Nombre total d'éléments
- * @param {number} [hueStart=0] - Début de la plage de teintes (par défaut: 0)
- * @param {number} [hueEnd=360] - Fin de la plage de teintes (par défaut: 360)
+ * @param {number} [hueStart=0] - Début de la plage de teintes (par défaut : 0)
+ * @param {number} [hueEnd=360] - Fin de la plage de teintes (par défaut : 360)
  * @returns {string}            - Couleur au format HSL
  */
 export function getColor(index: number, total: number, hueStart: number = 0, hueEnd: number = 300): string {
@@ -33,7 +33,7 @@ export function linearInterpolation(x: number, x1: number, x2: number, y1: numbe
  * @param {number} start            - Valeur de départ de l'intervalle
  * @param {number} stop             - Valeur de fin de l'intervalle
  * @param {number} num              - Nombre de valeurs à générer
- * @param {boolean} [endpoint=true] - Inclure la valeur de fin dans la séquence (par défaut: true)
+ * @param {boolean} [endpoint=true] - Inclure la valeur de fin dans la séquence (par défaut : true)
  * @returns {number[]}              - Tableau de nombres linéairement espacés
  */
 export function linspace(start: number, stop: number, num: number, endpoint: boolean = true): number[] {
@@ -59,8 +59,8 @@ export function rgbToHex(r: number, g: number, b: number): number {
  * Fonction pour calculer la valeur d'une fonction sinusoïdale.
  *
  * @param {number} x             - Valeur de l'axe des abscisses
- * @param {number} [amplitude=1] - Amplitude de la sinusoïde (par défaut: 1)
- * @param {number} [period=1]    - Période de la sinusoïde (par défaut: 1)
+ * @param {number} [amplitude=1] - Amplitude de la sinusoïde (par défaut : 1)
+ * @param {number} [period=1]    - Période de la sinusoïde (par défaut : 1)
  * @returns {number}             - Valeur de la fonction sinusoïdale
  */
 export function sinusoidalFunction(x: number, amplitude: number = 1, period: number = 1): number {
